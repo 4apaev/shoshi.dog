@@ -12,7 +12,8 @@
     "src/util.js"
   ],
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git@github.com:4apaev/shoshi.dog.git"
   },
   "scripts": {
     "build": "set -a; . ./.env; set +a; rm -rf dist; tsc && npm run lint",
