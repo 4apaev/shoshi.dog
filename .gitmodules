@@ -1,0 +1,3 @@
+[submodule "tsync"]
+	path = tsync
+	url = git@github.com:4apaev/tsync.git
