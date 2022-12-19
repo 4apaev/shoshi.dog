@@ -1,0 +1,11 @@
+{
+  "folders": [
+    { "name": "🐶 shosghi.dog", "path": ".." },
+  ],
+  "settings": {
+    "explorer.fileNesting.enabled": false,
+    "explorer.fileNesting.patterns": {
+      "docker-compose.yml": "docker-compose.*, dockerfile*, nginx.conf, .env",
+    },
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name"    : "shoshi.dog",
+  "author"  : "Michael Miretsky",
+  "description": "Git Submodules Playground",
+  "license" :  "MIT",
+  "version" : "0.0.1",
+  "type"    : "module",
+  "files"   : [
+    "src/base.js",
+    "src/fetch.js",
+    "src/sync.js",
+    "src/util.js"
+  ],
+  "repository": {
+    "type": "git"
+  },
+  "scripts": {
+    "build": "set -a; . ./.env; set +a; rm -rf dist; tsc && npm run lint",
+    "test" : "set -a; . ./.env; set +a; node --test test/**/*.spec.js"
+  },
+  "devDependencies": {
+    "eslint"     : "^8.30.0",
+    "@types/node": "^18.11.16"
+  }
+}
